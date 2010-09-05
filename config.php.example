@@ -1,0 +1,23 @@
+<?php
+$config_dbuser='root';
+$config_dbpass='pass';
+$config_dbname='sam-o-bot';
+$config_dbhost='localhost';
+//$config_update_interval=1800;
+$config_poll=5; // number of seconds passed as a timeout to processUntil. "1" makes the bot responsive, but
+                // pops bugs on slow connections (e.g. my GPRS which I used for testing). 
+
+$config_jhost='jabber.ru';
+$config_jport=5222;
+$config_juser='sam-o-bot';
+$config_jpass='pass';
+$config_jresource='sylwer';
+$config_owner='progin@invyl.ath.cx';
+
+$config_plugins[]='basic';
+$config_plugins[]='samizdat_news';
+$config_plugins[]='admin';
+//$plugins[]='news';
+//$plugins[]='debug';
+
+?>

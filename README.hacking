@@ -1,0 +1,26 @@
+ ==== Warning! ====
+
+This code was created in several hours, with several older projects combined. 
+It sucks hard. Really. In many places it shoud be rewritten, coding style cleaned up and etc. 
+I do not have time for this right now. However, it just works (tm).
+
+Conserning XMPPHP: There is a nasty bug out there. The one that makes the memory leak as if it was
+Windows Mobile 6x =). I plunged that leak. That was not a big deal: Just blank all the until* vars in
+at the very start of processUntil method and you are done. You'll need that if you plan to update xmpphp
+
+jabberd 1.x WTF: xmpphp didn't work with my (pretty default debian) installation of jabberd. I guess that this
+is an issue to be dealt with upstream.
+
+
+==== Предупреждение ====
+
+Код написан за несколько часов, как комбинация нескольких старых наработок с разным когдинг стайлом.
+Как следствие - там можно сломать местами голову. Берегите ее! Править это сейчас у меня нет времени, к тому же все
+"просто работает". 
+
+Относительно xmpphp:
+
+Там была дыра в которую текла память. Текла так, как будто это вин мобайл 6й версии. Я эту дыру заткнул. см. англ.
+примечание как. Лениво второй раз расписывать. 
+
+jabberd: с моим jabberd оно так и не заработало. Проблему надо по ходу решать в апстриме. Се ля ви.
